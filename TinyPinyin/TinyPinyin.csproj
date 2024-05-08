@@ -4,15 +4,22 @@
 	<TargetFrameworks>netstandard2.1;net5.0;net6.0;net48;net40</TargetFrameworks>
     <PackOnBuild>true</PackOnBuild>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/hstarorg/TinyPinyin.Net</RepositoryUrl>
+    <RepositoryUrl>https://github.com/zhaocjcc/TinyPinyin.NetFramework</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageProjectUrl>https://github.com/hstarorg/TinyPinyin.Net</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/zhaocjcc/TinyPinyin.NetFramework</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Authors>hstarorg</Authors>
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
-    <FileVersion>1.1.0.0</FileVersion>
-    <Description>适用于.Net平台的快速、低内存占用的汉字转拼音库。兼容 .Net Standard/.Net4.8/.Net 5/.Net 6。核心算法来自于：https://github.com/promeG/TinyPinyin</Description>
-    <Version>1.1.0</Version>
+    <Authors>zhaocjcc</Authors>
+    <AssemblyVersion>1.0.2.1</AssemblyVersion>
+    <FileVersion>1.0.2.1</FileVersion>
+    <Description>适用于.Net平台的快速、低内存占用的汉字转拼音库。兼容 .Net Standard/.Net4.8/.Net4.0/.Net 5/.Net 6。核心算法来自于：https://github.com/promeG/TinyPinyin</Description>
+    <Version>1.0.2.1</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>TinyPinyin.NetFramework</Title>
+    <Product>TinyPinyin.NetFramework</Product>
+    <PackageTags>pinyin;c#;.net4.0;拼音;</PackageTags>
+    <PackAsTool>False</PackAsTool>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageId>TinyPinyin.NetFramework</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
